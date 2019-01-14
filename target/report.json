@@ -1,0 +1,17 @@
+{
+  "tests" : [ {
+    "name" : "eventTeste layout",
+    "startedAt" : 1547344208056,
+    "endedAt" : 1547344208056,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 1,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 1
+    },
+    "testId" : "1-eventteste-layout",
+    "failed" : false,
+    "duration" : 0
+  } ]
+}

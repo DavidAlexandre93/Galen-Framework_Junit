@@ -1,0 +1,7 @@
+@objects
+    content  id   content
+    btn-primary   css     #content .btn-primary
+
+= Content =
+    btn-primary:
+         color-scheme 70 to 80 % #22A30B, 1 to 4 % white

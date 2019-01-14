@@ -1,0 +1,40 @@
+{
+  "testId" : "1-mynotes-layout",
+  "name" : "mynotes layout",
+  "report" : {
+    "nodes" : [ {
+      "name" : "check mynotes layout",
+      "status" : "error",
+      "time" : 1547344193791,
+      "includedTags" : [ "desktop" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Menu",
+        "place" : {
+          "filePath" : "specs/mynotes.gspec",
+          "lineNumber" : 11
+        },
+        "objects" : [ {
+          "name" : "menu-item-4",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/mynotes.gspec",
+              "lineNumber" : 13
+            },
+            "name" : "image file mynotes-dump/objects/menu-item-4.png, map-filter denoise 2, error 5px",
+            "errors" : [ "Couldn't load image: specs\\mynotes-dump/objects/menu-item-4.png" ],
+            "highlight" : [ "menu-item-4" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "menu-item-4" : {
+          "area" : [ 356, 70, 100, 63 ]
+        }
+      },
+      "screenshot" : "layout-2-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

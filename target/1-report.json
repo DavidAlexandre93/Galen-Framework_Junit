@@ -1,0 +1,60 @@
+{
+  "testId" : "1-report",
+  "name" : "report",
+  "report" : {
+    "nodes" : [ {
+      "name" : "check report",
+      "status" : "info",
+      "time" : 1547265428275,
+      "includedTags" : [ "desktop" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "My notes",
+        "place" : {
+          "filePath" : "specs/mynotes.gspec",
+          "lineNumber" : 7
+        },
+        "objects" : [ {
+          "name" : "main-caption",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/mynotes.gspec",
+              "lineNumber" : 9
+            },
+            "name" : "text is \"My Notes\"",
+            "highlight" : [ "main-caption" ]
+          } ]
+        } ]
+      }, {
+        "name" : "Menu",
+        "place" : {
+          "filePath" : "specs/mynotes.gspec",
+          "lineNumber" : 11
+        },
+        "objects" : [ {
+          "name" : "menu-item-4",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/mynotes.gspec",
+              "lineNumber" : 13
+            },
+            "name" : "image file homepage-dump/objects/menu-item-4.png, map-filter denoise 2, error 322px",
+            "highlight" : [ "menu-item-4" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "main-caption" : {
+          "area" : [ 65, 173, 860, 33 ]
+        },
+        "menu-item-4" : {
+          "area" : [ 356, 70, 100, 63 ]
+        }
+      },
+      "screenshot" : "layout-2-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

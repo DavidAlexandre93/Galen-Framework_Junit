@@ -1,0 +1,39 @@
+{
+  "testId" : "1-eventteste-layout",
+  "name" : "eventTeste layout",
+  "report" : {
+    "nodes" : [ {
+      "name" : "check eventTest layout",
+      "status" : "info",
+      "time" : 1547344208056,
+      "includedTags" : [ "desktop" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Content",
+        "place" : {
+          "filePath" : "specs/eventTeste.gspec",
+          "lineNumber" : 5
+        },
+        "objects" : [ {
+          "name" : "btn-primary",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/eventTeste.gspec",
+              "lineNumber" : 7
+            },
+            "name" : "color-scheme 70 to 80 % #22A30B, 1 to 4 % white",
+            "highlight" : [ "btn-primary" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "btn-primary" : {
+          "area" : [ 65, 363, 106, 45 ]
+        }
+      },
+      "screenshot" : "layout-3-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}
